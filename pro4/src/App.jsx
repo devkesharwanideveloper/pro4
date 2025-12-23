@@ -10,6 +10,7 @@ function App() {
 
   return (
     <>
+    <div className="bg-blue-800 text-white">Home page </div>
        <Routes>
           <Route path='/' element={<Home/>}></Route>
           <Route path='/login' element={<Login/>}></Route>
